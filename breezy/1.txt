@@ -1,0 +1,30 @@
+api_key <- "DtWsEF2bTpgkxXxP64QPS5inQ"
+api_secret <- "oh3gvgaoZjszb02lvNvVjbrEZtyyi67NrmFRlMzur0GkGD2EXs"
+access_token <- "1337968898-WNwi5YgGxZt5c16J9maWRPDwgHQWm04jlLJfw2b"
+access_token_secret <- "tZLkDlolhtF7qVPE41vqKZ4iUeCoKTVIlYI08KPYZhO4n" 
+setup_twitter_oauth(api_key,api_secret)
+
+                    
+> sentiment(brexit_vector[0:10])
+                                                                                                                                                                   text
+1           RT @IainDale: Those Brexit talks in full:Remainers: UK should pay what it owes.Government: We ll pay what we owe.Remainers: The governm<e2><U+0080><U+00A6>
+2       RT @newacademic: Goldsmiths College, University of London, is a cesspit of Marxist and Feminist extremists, pumping out fake news, propagan<e2><U+0080><U+00A6>
+3       RT @jbasekelly: Interesting. Big question is will the DUP swallow a system which means NI converges more with Ireland and less with rUK? If<e2><U+0080><U+00A6>
+4                                            RT @vincecable: On @Channel4News. £50bn net #Brexit divorce payment. Why? Stay in #EU, save the money and spend it on #NHS
+5                                                                                  Dublin s revenge: guess who s calling the #Brexit shots now? https://t.co/K4ikVD0fIB
+6   Absolutely! Oh hang on, did they actually think this through? Clearly not, back slogan not policies, &amp; hello brexit<e2><U+0080><U+00A6> https://t.co/Nv3lkKkfDc
+7                                                            RT @PeteWishart: No wonder they want to keep that Brexit  analysis  to themselves. https://t.co/XOV2ExnyWU
+8                                                        RT @chris60turner: @Number10gov Suggest she stays in Iraq if report of £40bn BREXIT is even close to the truth
+9       RT @openDemocracy: The UK govt is rushing through a new law to keep the DUP s Brexit #darkmoney donors a secret. Citizens have a right to k<e2><U+0080><U+00A6>
+10                                           RT @vincecable: On @Channel4News. £50bn net #Brexit divorce payment. Why? Stay in #EU, save the money and spend it on #NHS
+   polarity language
+1   neutral       en
+2   neutral       en
+3  positive       en
+4   neutral       en
+5   neutral       en
+6   neutral       en
+7   neutral       en
+8   neutral       en
+9  positive       en
+10  neutral       en
